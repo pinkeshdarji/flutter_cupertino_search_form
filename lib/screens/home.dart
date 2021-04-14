@@ -72,6 +72,7 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.only(top: 16),
               child: CupertinoSearchTextField(
                 controller: _controller,
+                style: TextStyle(color: Colors.white),
                 onChanged: (value) {
                   _updateProductList(value);
                 },
